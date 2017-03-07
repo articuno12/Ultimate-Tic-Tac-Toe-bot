@@ -3,8 +3,7 @@ import random
 import signal
 import time
 import copy
-import team36
-import ass1
+import bot
 class TimedOutExc(Exception):
 	pass
 
@@ -317,8 +316,8 @@ if __name__ == '__main__':
 		obj2 = Random_Player()
 
 	elif option == '2':
-		obj1 = team36.Player36()
-		obj2 = ass1.Tiedmagnets()
+		obj1 = Random_Player()
+		obj2 = bot.Tiedmagnets()
 	elif option == '3':
 		obj1 = Manual_Player()
 		obj2 = Manual_Player()
