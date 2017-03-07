@@ -312,8 +312,8 @@ if __name__ == '__main__':
 	obj2 = ''
 	option = sys.argv[1]
 	if option == '1':
-		obj1 = Random_Player()
-		obj2 = Random_Player()
+		obj1 = Manual_Player()
+		obj2 = bot.Tiedmagnets()
 
 	elif option == '2':
 		obj1 = Random_Player()
