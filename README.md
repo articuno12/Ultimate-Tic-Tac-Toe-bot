@@ -1,5 +1,10 @@
 # Ultimate-Tic-Tac-Toe-bot
-Ultimate tic tac toe bot built in python using alpha beta pruning aspiration search and history heurestics.
+Ultimate tic tac toe bot built in python using alpha beta pruning aspiration search and history heurestics. <br>
+To Run:<br>
+1.Download the code <br>
+2. python simulator.py 1 <br>
+3. Choose your moves ! <br>
+4. To run a match against a random player : python simulator.py 2 <br>
 
 Ultimate TicTacToe is an extension of the 4x4 TicTacToe(which is an extension of 3x3
 TicTacToe), where there are 16 blocks each having 4x4 cells.<br>
@@ -32,9 +37,9 @@ are filled, and no pattern has been formed then the game is over. <br>
 
 Scoring<br>
 1.Winning a game, by forming a pattern as described in [WIN RULE] will give you
-16 points.
+16 points.<br>
 2.If the player makes an invalid move, or exceeds time limit, or makes an illegal
 change to the board, or uses threading or makes any system call, then the
-opponent earns 16 points and the player earns 0 points.
+opponent earns 16 points and the player earns 0 points. <br>
 3.If no player has a pattern at the end of the game, both the players get points
-equal to the number of blocks they have won respectively.
+equal to the number of blocks they have won respectively. <br>
